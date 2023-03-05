@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
+import { ReactComponent as Logo } from './assets/logo.svg';
+
 import './App.css';
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
         <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
           Learn React
         </a>
+        <Logo />
       </header>
       {process.env.REACT_APP_API_URL}
     </div>
